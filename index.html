@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JS Lab3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1>Система управління сільськогосподарськими поставками</h1>
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#enterprises">Підприємства</a></li>
+    <li><a data-toggle="tab" href="#supplies">Поставлення</a></li>
+    <li><a data-toggle="tab" href="#products">Продукція</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="enterprises" class="tab-pane fade in active">
+      <h3>Підприємства</h3>
+      <table class="table table-striped">
+		<thead>
+			<tr>
+				<th>Назва</th>
+				<th>Вид діяльності</th>
+				<th>Дії</th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	  </table>
+    </div>
+    <div id="supplies" class="tab-pane fade">
+      <h3>Поставлення</h3>
+      <table class="table table-striped">
+		<thead>
+			<tr>
+				<th>Підприємство</th>
+				<th>Продукція</th>
+				<th>Дата</th>
+				<th>Обсяг</th>
+				<th>Оцінка якості</th>
+				<th>Дії</th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	  </table>
+    </div>
+    <div id="products" class="tab-pane fade">
+      <h3>Продукція</h3>
+      <table class="table table-striped">
+		<thead>
+			<tr>
+				<th>Назва</th>
+				<th>Термін зберігання</th>
+				<th>Нова загальна</th>
+				<th>Дії</th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	  </table>
+    </div>
+  </div>
+</div>
+</body>
+</html>
